@@ -25,7 +25,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
     final response = await http.get(
       Uri.parse('https://api.github.com/users/$username/repos'),
       headers: {
-        'Authorization': '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',
+        'Authorization': '',
       },
     );
 
